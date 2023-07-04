@@ -18,7 +18,7 @@ The date-time dimension table serves as the primary key, while the passenger acc
 
 Similarly, dimension tables are created for pick-up location, pick-up location ID, drop location, drop location ID, rate code, and payment type. These tables include primary keys, foreign keys, and relevant columns to accurately represent associated information.
 
-UberDataModel.png
+![UberDataModel](UberDataModel.png)
 
 # Writing Transformation Code(Python)
 
