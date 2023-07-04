@@ -45,7 +45,7 @@ Similarly, dimension tables are created for pick-up location, pick-up location I
 
 # Writing Transformation Code(Python)
 
-During the project's transformation code phase in Python, the main objective is to convert the flat file into a dimension model using structured programming code. This process involves dropping duplicates, resetting the index, and assigning unique values to the date-time column.Once the flat file is successfully converted into dimension tables, the subsequent task is to create the fact table by merging the dimension tables.
+During the project's transformation code phase in Python, the main objective is to convert the flat file into a dimension model using structured programming code. This process involves dropping duplicates, resetting the index, and assigning unique values to the date-time column.Once the flat file is successfully converted into dimension tables, the subsequent task is to create the fact table by merging the dimension tables. [CLICK HERE](https://github.com/KishanGangarama/Uber-Data-Analytics-End-to-End-Data-Engineering/blob/main/Uber%20Data%20Pipline.ipynb)
 
 Upon completing the transformation code, the data can be uploaded to Google Cloud storage for deployment. Analyzing the data, executing queries, and developing a dashboard follow as subsequent steps in the project.
 
