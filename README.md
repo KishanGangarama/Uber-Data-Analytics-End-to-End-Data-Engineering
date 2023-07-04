@@ -7,7 +7,13 @@ The data will be loaded into BigQuery, which acts as our data warehouse. Further
 Additionally, it explores the various Google Cloud Platform (GCP) services that will be utilized throughout the project, such as Google Cloud storage, compute engine, and BigQuery.
 
 # Technology Used
-    - &#9679; Programming Language - Python
+<ul style="list-style-type: none;">
+  <li style="margin-bottom: 5px;">
+    <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background-color: black; margin-right: 5px;"></span>
+    Programming Language: Python
+  </li>
+</ul>
+
     
 Google Cloud Platform
 
