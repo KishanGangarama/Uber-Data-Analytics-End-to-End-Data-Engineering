@@ -23,3 +23,21 @@ Similarly, dimension tables are created for pick-up location, pick-up location I
 During the project's transformation code phase in Python, the main objective is to convert the flat file into a dimension model using structured programming code. This process involves dropping duplicates, resetting the index, and assigning unique values to the date-time column.Once the flat file is successfully converted into dimension tables, the subsequent task is to create the fact table by merging the dimension tables.
 
 Upon completing the transformation code, the data can be uploaded to Google Cloud storage for deployment. Analyzing the data, executing queries, and developing a dashboard follow as subsequent steps in the project.
+
+# Google Cloud Storage & Mage Installation
+
+On Google Cloud console, we create buckets for storing our dataset. 
+
+For Mage installation, we start by creating a compute engine instance on Google Cloud. Configure the instance with appropriate CPU and memory specifications. we then connect to the instance and install the necessary packages, such as Python and pandas.
+
+To install Mage, we use either 'Docker' or 'Pip'. In our case, we use 'pip', and the installation commands can be executed in the virtual machine. Once Mage is installed, we start a project by running 'mage start project_name'.
+
+To enable access to the instance, we create a firewall rule to allow requests from port 6789 and specifiying IP address. This will enable accessing the user interface (UI) of the instance.
+
+Within the Mage project, to load data, we provide the API name to extract data from our bucket which contains dataset. Using pandas data frames and transformation blocks, we then transform the data according to the desired data model. The code is later run, and the results, including the created fact table, are verified.
+
+Next, we load the data into BigQuery, and create a table based on the provided name and configuration.
+
+Create a data set and a data set multi-region for accessing and replicating data from different regions. Write the data and key name to a data frame and ensure the necessary Google Cloud module is installed.
+
+After running the exporter code, we can preview the data set and tables in BigQuery. This way, the ETL task is completed. 
