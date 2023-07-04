@@ -18,6 +18,8 @@ The date-time dimension table serves as the primary key, while the passenger acc
 
 Similarly, dimension tables are created for pick-up location, pick-up location ID, drop location, drop location ID, rate code, and payment type. These tables include primary keys, foreign keys, and relevant columns to accurately represent associated information.
 
+UberDataModel.png
+
 # Writing Transformation Code(Python)
 
 During the project's transformation code phase in Python, the main objective is to convert the flat file into a dimension model using structured programming code. This process involves dropping duplicates, resetting the index, and assigning unique values to the date-time column.Once the flat file is successfully converted into dimension tables, the subsequent task is to create the fact table by merging the dimension tables.
