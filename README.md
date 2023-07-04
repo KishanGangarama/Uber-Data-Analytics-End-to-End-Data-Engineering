@@ -37,3 +37,20 @@ To enable access to the instance, we create a firewall rule to allow requests fr
 Within the Mage project, to load data, we provide the API name to extract data from our bucket which contains dataset. Using pandas data frames and transformation blocks, we then transform the data according to the desired data model. The code is later run, and the results, including the created fact table, are verified.
 
 By running the exporter code, we load the data into BigQuery using ymal file and create a table based on the provided name and configuration. We can then preview the data set and tables in BigQuery. This way, the ETL task is completed. 
+
+# BigQuery Data Analysis
+
+In BigQuery, analytical queries can be performed using SQL commands on the fact table, such as 'CLICK HERE'.
+
+In this phase of the project, we select columns from multiple tables to extract data to create visualization. 
+
+# Building Dashboards
+
+Once the BigQuery is connected, the data set can be added to the report. The dashboard can be customized by adding text, filters, and different sections for filtering data by VendorID, payment type, rate code and trip distance. Also, the dashboard is created to display metrics such as total revenue, record count, average trip distance, average fare amount and average tip amount, which can be used to make informed decisions. Calculated fields are used to show maps of pickup locations highlighting vendor ID and rate code names. Additionally, charts such as bar charts are used to visualize the average amount over rate code, average amount over payment type, pie charts for rate code and vendor ID . The dashboard provides insights and allows for exploration of data by manipulating columns and visualizations.
+
+
+
+
+
+
+
