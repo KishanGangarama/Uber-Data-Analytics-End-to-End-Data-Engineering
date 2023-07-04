@@ -26,9 +26,7 @@ Modern Data Pipeine Tool - [ Mage](https://www.mage.ai/)
 
 # Dataset 
 
-TLC Trip Record Data Yellow and green taxi trip records include fields capturing VendorID,	tpep_pickup_datetime,	tpep_dropoff_datetime,	passenger_count,	trip_distance,	pickup_longitude,	pickup_latitude,	RatecodeID,	dropoff_longitude,	dropoff_latitude,	payment_type,	fare_amount, tip_amount, tolls_amount	and	total_amount.
-![image](https://github.com/KishanGangarama/Uber-Data-Analytics-End-to-End-Data-Engineering/assets/112736041/0ffd9825-4044-4932-a0fd-ff0f75adf8ee)
-. Here is the ![Dataset](uber_data.csv)
+TLC Trip Record Data Yellow and green taxi trip records include fields capturing VendorID,	tpep_pickup_datetime,	tpep_dropoff_datetime,	passenger_count,	trip_distance,	pickup_longitude,	pickup_latitude,	RatecodeID,	dropoff_longitude,	dropoff_latitude,	payment_type,	fare_amount, tip_amount, tolls_amount	and	total_amount. Here is the ![Dataset](uber_data.csv)
 
 
 # Data Modeling 
