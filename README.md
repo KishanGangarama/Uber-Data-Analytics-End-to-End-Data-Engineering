@@ -6,6 +6,18 @@ The data will be loaded into BigQuery, which acts as our data warehouse. Further
 
 Additionally, it explores the various Google Cloud Platform (GCP) services that will be utilized throughout the project, such as Google Cloud storage, compute engine, and BigQuery.
 
+# Technology Used
+    - &#9679; Programming Language - Python
+    
+Google Cloud Platform
+
+1. Google Storage
+2. Compute Instance
+3. BigQuery
+4. Looker Studio
+5. 
+Modern Data Pipeine Tool - ![UberDataModel](https://www.mage.ai/)
+
 # Data Modeling 
 
 As the project execution begins, the first step involves data modeling and understanding the dataset and its corresponding data dictionary. This step is crucial for designing an effective data model that aligns with the project's objectives.
