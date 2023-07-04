@@ -65,7 +65,8 @@ By running the exporter code, we load the data into BigQuery using ymal file and
 
 # BigQuery Data Analysis
 
-In BigQuery, analytical queries can be performed using SQL commands on the fact table, such as ![CLICK HERE](Analytics Query.sql)
+In BigQuery, analytical queries can be performed using SQL commands on the fact table, such as Analytics Query.sql    
+![CLICK HERE](Analytics Query.sql)
 
 In this phase of the project, we select columns from multiple tables to extract data to create visualization. 
 
