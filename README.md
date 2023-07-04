@@ -36,8 +36,4 @@ To enable access to the instance, we create a firewall rule to allow requests fr
 
 Within the Mage project, to load data, we provide the API name to extract data from our bucket which contains dataset. Using pandas data frames and transformation blocks, we then transform the data according to the desired data model. The code is later run, and the results, including the created fact table, are verified.
 
-Next, we load the data into BigQuery, and create a table based on the provided name and configuration.
-
-Create a data set and a data set multi-region for accessing and replicating data from different regions. Write the data and key name to a data frame and ensure the necessary Google Cloud module is installed.
-
-After running the exporter code, we can preview the data set and tables in BigQuery. This way, the ETL task is completed. 
+By running the exporter code, we load the data into BigQuery using ymal file and create a table based on the provided name and configuration. We can then preview the data set and tables in BigQuery. This way, the ETL task is completed. 
