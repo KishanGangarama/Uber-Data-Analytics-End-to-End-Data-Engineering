@@ -21,8 +21,9 @@ Google Cloud Platform
 2. Compute Instance
 3. BigQuery
 4. Looker Studio
-5. 
-Modern Data Pipeine Tool - ![UberDataModel](https://www.mage.ai/)
+   
+Modern Data Pipeine Tool - [ Mage](https://www.mage.ai/)
+
 
 # Data Modeling 
 
