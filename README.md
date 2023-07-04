@@ -46,7 +46,7 @@ In this phase of the project, we select columns from multiple tables to extract 
 
 # Building Dashboards
 
-Once the BigQuery is connected, the data set can be added to the report. The dashboard can be customized by adding text, filters, and different sections for filtering data by VendorID, payment type, rate code and trip distance. Also, the dashboard is created to display metrics such as total revenue, record count, average trip distance, average fare amount and average tip amount, which can be used to make informed decisions. Calculated fields are used to show maps of pickup locations highlighting vendor ID and rate code names. Additionally, charts such as bar charts are used to visualize the average amount over rate code, average amount over payment type, pie charts for rate code and vendor ID . The dashboard provides insights and allows for exploration of data by manipulating columns and visualizations.
+Once the BigQuery is connected, the data set can be added to the report. The dashboard can be customized by adding text, filters, and different sections for filtering data by VendorID, payment type, rate code and trip distance. Also, the dashboard is created to display metrics such as total revenue, record count, average trip distance, average fare amount and average tip amount, which can be used to make informed decisions. Calculated fields are used to show maps of pickup locations highlighting vendor ID and rate code names. Additionally, charts such as bar charts are used to visualize the average amount by rate code, average amount by payment type, pie charts for rate code and vendor ID . The dashboard provides insights and allows for exploration of data by manipulating columns and visualizations.
 
 
 
